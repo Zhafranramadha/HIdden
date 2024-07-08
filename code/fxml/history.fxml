@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.LoginController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="189.0" style="-fx-background-color: #ffffff;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="21.0" layoutY="25.0" text="HIDDEN HEAVEN" textFill="#393939">
+               <font>
+                  <Font name="Comic Sans MS Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="38.0" fitWidth="39.0" layoutX="137.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../Picsart_24-06-21_22-31-30-804.png" />
+               </image>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </ImageView>
+            <Line endX="81.0" layoutX="88.0" layoutY="53.0" startX="-70.5" />
+            <Button fx:id="history_page_button" layoutX="20.0" layoutY="173.0" mnemonicParsing="false" mouseTransparent="true" prefHeight="31.0" prefWidth="150.0" styleClass="button-selected" stylesheets="@homescreen.css" text="History" underline="true">
+               <effect>
+                  <DropShadow height="13.0" radius="6.0" width="13.0" />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button fx:id="home_page_button" layoutX="20.0" layoutY="113.0" mnemonicParsing="false" onAction="#SwitchToHomePage" prefHeight="31.0" prefWidth="150.0" styleClass="button-unselected" stylesheets="@homescreen.css" text="Home Page">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button layoutX="20.0" layoutY="237.0" mnemonicParsing="false" onAction="#SwitchToCategory" prefHeight="31.0" prefWidth="150.0" styleClass="button-unselected" stylesheets="@homescreen.css" text="Category">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Button layoutX="11.0" layoutY="354.0" mnemonicParsing="false" onAction="#LogOut" style="-fx-background-color: #ffffff;" text="Sign Out">
+               <font>
+                  <Font name="Comic Sans MS" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="97.0" layoutY="354.0" mnemonicParsing="false" onAction="#SwitchToSettings" style="-fx-background-color: #ffffff;" text="Settings">
+               <font>
+                  <Font name="Comic Sans MS" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Line endX="-100.0" endY="21.0" layoutX="194.0" layoutY="359.0" startX="-100.0" stroke="#000000cc" />
+         </children></AnchorPane>
+   </left>
+   <right>
+      <ScrollPane hbarPolicy="NEVER" prefHeight="400.0" prefWidth="411.0" BorderPane.alignment="CENTER">
+         <content>
+            <AnchorPane prefHeight="596.0" prefWidth="393.0">
+               <children>
+                  <AnchorPane fx:id="History1" layoutX="13.0" layoutY="14.0" prefHeight="130.0" prefWidth="365.0" style="-fx-background-color: #e1e1e1; -fx-background-radius: 12;">
+                     <children>
+                        <Label layoutX="174.0" layoutY="7.0" prefHeight="17.0" prefWidth="95.0" text="Pulo Cinta">
+                           <font>
+                              <Font name="Comic Sans MS" size="17.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="26.0" fitWidth="20.0" layoutX="169.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../png-clipart-gps-navigation-systems-computer-icons-map-map-location-symbol-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="188.0" layoutY="41.0" prefHeight="22.0" prefWidth="150.0" text="Pataomeme,Botumoito">
+                           <font>
+                              <Font name="Comic Sans MS" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="188.0" layoutY="62.0" prefHeight="17.0" prefWidth="132.0" text="Boalemo Regency">
+                           <font>
+                              <Font name="Comic Sans MS" size="14.0" />
+                           </font></Label>
+                        <Label layoutX="188.0" layoutY="79.0" text="Gorontalo">
+                           <font>
+                              <Font name="Comic Sans MS" size="14.0" />
+                           </font></Label>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="320.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../png-transparent-yellow-star-illustration-yellow-star-color-star-blue-angle-white-thumbnail-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="225.0" layoutY="70.0" />
+                        <Label layoutX="340.0" layoutY="104.0" text="4.8">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <ImageView fitHeight="117.0" fitWidth="159.0" layoutX="8.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../pulo%20cinta.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+                  <AnchorPane fx:id="History2" layoutX="13.0" layoutY="160.0" prefHeight="130.0" prefWidth="365.0" style="-fx-background-color: #e1e1e1; -fx-background-radius: 12;">
+                     <children>
+                        <ImageView fitHeight="26.0" fitWidth="20.0" layoutX="169.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../png-clipart-gps-navigation-systems-computer-icons-map-map-location-symbol-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="174.0" layoutY="7.0" text="Ciletuh Geopark">
+                           <font>
+                              <Font name="Comic Sans MS" size="17.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="188.0" layoutY="41.0" text="Ciwaru,Ciemas,Sukabumi">
+                           <font>
+                              <Font name="Comic Sans MS" size="14.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="188.0" layoutY="62.0" text="Jawa Barat">
+                           <font>
+                              <Font name="Comic Sans MS" size="14.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="320.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../png-transparent-yellow-star-illustration-yellow-star-color-star-blue-angle-white-thumbnail-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="340.0" layoutY="104.0" text="4.6">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <ImageView fitHeight="117.0" fitWidth="159.0" layoutX="8.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../geopark.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+                  <AnchorPane fx:id="History3" layoutX="13.0" layoutY="305.0" prefHeight="130.0" prefWidth="365.0" style="-fx-background-color: #e1e1e1; -fx-background-radius: 12;">
+                     <children>
+                        <Label layoutX="174.0" layoutY="7.0" text="Taman Nasional Baluran">
+                           <font>
+                              <Font name="Comic Sans MS" size="17.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="26.0" fitWidth="20.0" layoutX="169.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../png-clipart-gps-navigation-systems-computer-icons-map-map-location-symbol-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="188.0" layoutY="41.0" text="Banyuputih,Situbondo">
+                           <font>
+                              <Font name="Comic Sans MS" size="14.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="320.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../png-transparent-yellow-star-illustration-yellow-star-color-star-blue-angle-white-thumbnail-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="340.0" layoutY="104.0" text="4.8">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <ImageView fitHeight="117.0" fitWidth="159.0" layoutX="8.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../taman%20nasional.jpg" />
+                           </image>
+                        </ImageView>
+                     </children></AnchorPane>
+                  <AnchorPane fx:id="History4" layoutX="13.0" layoutY="451.0" prefHeight="131.0" prefWidth="365.0" style="-fx-background-color: #e1e1e1; -fx-background-radius: 12;">
+                     <children>
+                        <ImageView fitHeight="117.0" fitWidth="159.0" layoutX="8.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../pantai.jpg" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="174.0" layoutY="7.0" text="Pantai Kalingkang">
+                           <font>
+                              <Font name="Comic Sans MS" size="17.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="26.0" fitWidth="20.0" layoutX="169.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../png-clipart-gps-navigation-systems-computer-icons-map-map-location-symbol-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="188.0" layoutY="41.0" prefHeight="21.0" prefWidth="176.0" text="Bunga Mekar,Nusa Penida,">
+                           <font>
+                              <Font name="Comic Sans MS" size="14.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="20.0" fitWidth="20.0" layoutX="320.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../../png-transparent-yellow-star-illustration-yellow-star-color-star-blue-angle-white-thumbnail-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="340.0" layoutY="104.0" text="4.8">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                        <Label layoutX="188.0" layoutY="62.0" text="Jawa Barat">
+                           <font>
+                              <Font name="Comic Sans MS" size="14.0" />
+                           </font>
+                        </Label>
+                     </children></AnchorPane>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </right>
+</BorderPane>

@@ -1,0 +1,24 @@
+.side-panel{
+    -fx-background-color: #d8efd3;
+    -fx-background-radius: 35;
+}
+
+.search-panel{
+    -fx-background-color: #e1e1e1;
+    -fx-background-radius: 35;
+}
+
+.button-selected{
+    -fx-background-color:  #95d2b3;
+    -fx-background-radius: 15;
+}
+
+.button-unselected{
+    -fx-background-color: #bcbcbc;
+    -fx-background-radius: 15;
+}
+
+.back-button{
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 12;
+}

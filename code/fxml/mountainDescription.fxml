@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Login.LoginController">
+   <top>
+      <AnchorPane prefHeight="61.0" prefWidth="600.0" style="-fx-background-color: #95d2b3;" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="14.0" layoutY="11.0" mnemonicParsing="false" onAction="#ToMountainCategory" prefHeight="39.0" prefWidth="65.0" styleClass="back-button" stylesheets="@homescreen.css" text="Back">
+               <font>
+                  <Font size="17.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <ScrollPane prefHeight="348.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <content>
+            <AnchorPane prefHeight="534.0" prefWidth="562.0">
+               <children>
+                  <ImageView fitHeight="125.0" fitWidth="227.0" layoutX="192.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../mountain%20deskription/bromo%202.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="126.0" fitWidth="161.0" layoutX="419.0" layoutY="-1.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../mountain%20deskription/bromo%203.jpeg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="126.0" fitWidth="200.0" layoutX="-8.0" layoutY="-1.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../mountain%20deskription/bromo.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="17.0" layoutY="131.0" prefHeight="24.0" prefWidth="137.0" text="Gunung Bromo">
+                     <font>
+                        <Font name="Comic Sans MS" size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="29.0" fitWidth="83.0" layoutX="1.0" layoutY="155.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../mountain%20deskription/shape-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="16.0" layoutY="160.0" prefHeight="17.0" prefWidth="55.0" text="Mountain" />
+                  <ImageView fitHeight="28.0" fitWidth="25.0" layoutX="79.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../png-transparent-yellow-star-illustration-yellow-star-color-star-blue-angle-white-thumbnail-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="28.0" fitWidth="25.0" layoutX="100.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../png-transparent-yellow-star-illustration-yellow-star-color-star-blue-angle-white-thumbnail-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="28.0" fitWidth="25.0" layoutX="120.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../png-transparent-yellow-star-illustration-yellow-star-color-star-blue-angle-white-thumbnail-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="28.0" fitWidth="25.0" layoutX="140.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../png-transparent-yellow-star-illustration-yellow-star-color-star-blue-angle-white-thumbnail-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="35.0" fitWidth="34.0" layoutX="16.0" layoutY="184.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../png-clipart-gps-navigation-systems-computer-icons-map-map-location-symbol-removebg-preview.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="47.0" layoutY="194.0" prefHeight="17.0" prefWidth="230.0" text="Pasuruan,Malang,Jawa Timur" />
+                  <Line endX="482.0" layoutX="98.0" layoutY="225.0" startX="-100.0" />
+                  <Label layoutX="25.0" layoutY="239.0" prefHeight="17.0" prefWidth="73.0" text="Maps">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="139.0" fitWidth="556.0" layoutX="13.0" layoutY="267.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../mountain%20deskription/maps%20bromo.png" />
+                     </image>
+                     <effect>
+                        <InnerShadow height="5.0" radius="2.0" width="5.0" />
+                     </effect>
+                  </ImageView>
+                  <Label layoutX="21.0" layoutY="410.0" prefHeight="17.0" prefWidth="73.0" text="Description">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="20.0" layoutY="430.0" prefHeight="17.0" prefWidth="491.0" text="gunung yang berada di jawa timur ini memiliki keindahan yan berbeda savana yang luas" />
+                  <Label layoutX="20.0" layoutY="445.0" prefHeight="17.0" prefWidth="491.0" text="berada di sekeliling gunung dan di sediakan berbagai wisata seperti jeep dan berkuda " />
+                  <Label layoutX="20.0" layoutY="460.0" prefHeight="17.0" prefWidth="531.0" text="jika beruntung ketika mendaki gunung ini para pendaki akan di suguhkan dengan lautan awan." />
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </bottom>
+</BorderPane>
